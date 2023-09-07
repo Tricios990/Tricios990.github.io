@@ -2,18 +2,32 @@
   "messages": [
     {
       "attachment": {
-        "type": "image",
+        "type": "template",
         "payload": {
-          "url": "https://assets.website-files.com/60afa6a88bd1bb7755dea817/60afa6a88bd1bb78e4deaa28_welcome-message-v8.png",
-          "buttons": [
+          "template_type": "media",
+          "elements": [
             {
-              "type": "web_url",
-              "url": "https://my.manychat.com/r?act=9a427ef0dc8384cbdf004cc6670ee116&u=0&p=107885431075086&h=43147702dc",
-              "title": "3New Button #1"
+              "media_type": "image",
+              "url": "https://www.facebook.com/chatfuelrockets/photos/1087668107975064",
+              "buttons": [
+                {
+                  "title": "Go to Chatfuel!",
+                  "type": "web_url",
+                  "url": "https://chatfuel.com/"
+                }
+              ]
             }
           ]
         }
-      }
+      },
+      "quick_replies": [
+        {
+          "title": "That's cool!",
+          "set_attributes": {
+            "feedback": "Cool!"
+          }
+        }
+      ]
     }
   ]
 }
