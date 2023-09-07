@@ -7,8 +7,7 @@
           "template_type": "media",
           "elements": [
             {
-              "media_type": "image",
-              "attachment_id": "https://res.cloudinary.com/diefzvdae/image/upload/v1693927717/Untitled_design_16_1_ykmcwe.png",
+              "media_url": "https://res.cloudinary.com/diefzvdae/image/upload/v1693927717/Untitled_design_16_1_ykmcwe.png",
               "buttons": [
                 {
                   "title": "Go to Chatfuel!",
