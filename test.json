@@ -1,33 +1,21 @@
-[
-  {
-    "message": {
+{
+  "messages": [
+    {
       "attachment": {
-        "type": "template",
+        "type": "image",
         "payload": {
-          "template_type": "media",
-          "elements": [
-            {
-              "media_type": "image",
-              "attachment_id": 3271662093125042,
-              "buttons": [
+          "url": "https://assets.website-files.com/60afa6a88bd1bb7755dea817/60afa6a88bd1bb78e4deaa28_welcome-message-v8.png"
+        "buttons": [
                 {
                   "type": "web_url",
                   "url": "https://my.manychat.com/r?act=9a427ef0dc8384cbdf004cc6670ee116&u=0&p=107885431075086&h=43147702dc",
                   "title": "New Button #1"
                 }
-              ]
-            }
-          ]
-        }
-      },
-      "quick_replies": [
-        {
-          "content_type": "text",
-          "title": "tt",
-          "payload": "MANYCHATJSON(20071354)::ACT::6e157893dd3d97c83627962081ef5346"
-        }
-      ]
-    },
-    "receiving_app_id": 532160876956612
-  }
 ]
+
+        }
+      }
+    }
+  ]
+}
+
