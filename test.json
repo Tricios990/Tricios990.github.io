@@ -1,0 +1,66 @@
+[
+    {
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "generic",
+                    "elements": [
+                        {
+                            "title": "Charlotte V ✅",
+                            "subtitle": "⭐⭐⭐⭐⭐ (5/5)",
+                            "image_url": "https://manybot-thumbnails.s3.eu-central-1.amazonaws.com/fb103088238487471/ca/big_68d844d8f2e00f1159b853e86c566aa7.jpg"
+                        },
+                        {
+                            "title": "Diana M ✅",
+                            "subtitle": "⭐⭐⭐⭐⭐ (5/5)",
+                            "image_url": "https://manybot-thumbnails.s3.eu-central-1.amazonaws.com/fb103088238487471/ca/big_84b9364515273f17cf84796a25b9f34c.jpg"
+                        },
+                        {
+                            "title": "Eva E ✅",
+                            "subtitle": "⭐⭐⭐⭐⭐ (5/5)",
+                            "image_url": "https://manybot-thumbnails.s3.eu-central-1.amazonaws.com/fb103088238487471/ca/big_546e3e152776b3bbe0a13806ea2db20b.jpg"
+                        },
+                        {
+                            "title": "Lana R ✅",
+                            "subtitle": "⭐⭐⭐⭐⭐ (5/5)",
+                            "image_url": "https://manybot-thumbnails.s3.eu-central-1.amazonaws.com/fb103088238487471/ca/big_024339db3638f248a278fa54100f9a87.jpg"
+                        },
+                        {
+                            "title": "Latasha C ✅",
+                            "subtitle": "⭐⭐⭐⭐⭐ (5/5)",
+                            "image_url": "https://manybot-thumbnails.s3.eu-central-1.amazonaws.com/fb103088238487471/ca/big_b6478068cae2fba247540af003c45bd1.jpg"
+                        }
+                    ],
+                    "image_aspect_ratio": "square"
+                }
+            }
+        },
+        "receiving_app_id": 532160876956612
+    },
+    {
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "media",
+                    "text": "✅ 100% Customized by you: Upload a picture of your choice & Choose any soundtrack that symbolizes a dear memory shared by you and the recipient.\n\nOur artisans will craft a special necklace for you. Start personalizing by taping the button below 👇",
+                    "buttons": [
+                        {
+                            "type": "postback",
+                            "payload": "block name: 1PP",
+                            "title": "👉 I'm Interested"
+                        }
+                    ]
+                }
+            },
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "👉 I'm Interested",
+                    "payload": "block name: 1PP"
+                }
+            ]
+        }
+    }
+]
