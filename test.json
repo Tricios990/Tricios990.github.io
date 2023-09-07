@@ -1,4 +1,8 @@
-    {
+  {
+        "message": {
+            "text": "👋Hello! I'm Lesly. For more than 30 years, I have taught workshops all over the world where I shared my knitting expertise and tips."
+        }
+    },  {
         "message": {
             "attachment": {
                 "type": "template",
@@ -19,12 +23,6 @@
                     ]
                 }
             },
-            "quick_replies": [
-                {
-                    "content_type": "text",
-                    "title": "👉 I'm Interested",
-                    "payload": "reply2"
-                }
-            ]
+
         }
     }
