@@ -1,6 +1,6 @@
-{
-  "messages": [
-    {
+[
+  {
+    "message": {
       "attachment": {
         "type": "template",
         "payload": {
@@ -8,12 +8,12 @@
           "elements": [
             {
               "media_type": "image",
-              "url": "https://www.facebook.com/chatfuelrockets/photos/1087668107975064",
+              "attachment_id": 3271662093125042,
               "buttons": [
                 {
-                  "title": "Go to Chatfuel!",
                   "type": "web_url",
-                  "url": "https://chatfuel.com/"
+                  "url": "https://my.manychat.com/r?act=9a427ef0dc8384cbdf004cc6670ee116&u=0&p=107885431075086&h=43147702dc",
+                  "title": "New Button #1"
                 }
               ]
             }
@@ -22,12 +22,12 @@
       },
       "quick_replies": [
         {
-          "title": "That's cool!",
-          "set_attributes": {
-            "feedback": "Cool!"
-          }
+          "content_type": "text",
+          "title": "tt",
+          "payload": "MANYCHATJSON(20071354)::ACT::6e157893dd3d97c83627962081ef5346"
         }
       ]
-    }
-  ]
-}
+    },
+    "receiving_app_id": 532160876956612
+  }
+]
