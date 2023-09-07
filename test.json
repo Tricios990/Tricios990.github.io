@@ -1,16 +1,33 @@
 {
- "message":{
-    "attachment": {
-      "type": "template",
-      "payload": {
-         "template_type": "media",
-         "elements": [
+  "messages": [
+    {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "media",
+          "elements": [
             {
-               "media_type": "image",
-               "attachment_id": "https://cdn.amegroups.cn/journals/amepc/files/journals/8/articles/61514/public/61514-PB10-9314-R1.png"
+              "media_type": "image",
+              "url": "https://www.facebook.com/chatfuelrockets/photos/1087668107975064",
+              "buttons": [
+                {
+                  "title": "Go to Chatfuel!",
+                  "type": "web_url",
+                  "url": "https://chatfuel.com/"
+                }
+              ]
             }
-         ]
-      }
-    }    
-  }
+          ]
+        }
+      },
+      "quick_replies": [
+        {
+          "title": "That's cool!",
+          "set_attributes": {
+            "feedback": "Cool!"
+          }
+        }
+      ]
+    }
+  ]
 }
