@@ -1,4 +1,10 @@
-  {
+{
+ "messages": [
+   {"text": "Welcome to the Chatfuel Rockets!"},
+   {"text": "What are you up to?"}
+ ]
+}
+{
         "message": {
             "text": "👋Hello! I'm Lesly. For more than 30 years, I have taught workshops all over the world where I shared my knitting expertise and tips."
         }
