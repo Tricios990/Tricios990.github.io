@@ -8,7 +8,7 @@
           "elements": [
             {
               "media_type": "image",
-              "attachment_id": "https://assets.website-files.com/60afa6a88bd1bb7755dea817/60afa6a88bd1bb78e4deaa28_welcome-message-v8.png",
+              "url": "https://assets.website-files.com/60afa6a88bd1bb7755dea817/60afa6a88bd1bb78e4deaa28_welcome-message-v8.png",
               "buttons": [
                 {
                   "title": "Go to Chatfuel!",
