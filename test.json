@@ -7,8 +7,8 @@
           "template_type": "media",
           "elements": [
             {
-              "media_type": "video",
-              "url": "https://www.facebook.com/chatfuelrockets/videos/252894858962779/",
+              "media_type": "image",
+              "attachment_id": "https://res.cloudinary.com/diefzvdae/image/upload/v1693927717/Untitled_design_16_1_ykmcwe.png",
               "buttons": [
                 {
                   "title": "Go to Chatfuel!",
