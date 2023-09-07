@@ -1,33 +1,85 @@
-{
-  "messages": [
-    {
+[
+  {
+    "message": {
       "attachment": {
         "type": "template",
         "payload": {
-          "template_type": "media",
+          "template_type": "generic",
           "elements": [
             {
-              "media_type": "image",
-              "attachment_id": 1328873221044469,
-              "buttons": [
-                {
-                  "title": "Go to Chatfuel!",
-                  "type": "web_url",
-                  "url": "https://chatfuel.com/"
-                }
-              ]
+              "title": "\"patterns are easy to follow, and the results are adorable.\"",
+              "subtitle": "⭐⭐⭐⭐⭐",
+              "image_url": "https://res.cloudinary.com/diefzvdae/image/upload/v1693922049/BGKCxBBxTL_58of126_dbz4vs.jpg"
+            },
+            {
+              "title": "\"I finished my creation in no time, and it looks amazing\"",
+              "subtitle": "⭐⭐⭐⭐⭐",
+              "image_url": "https://res.cloudinary.com/diefzvdae/image/upload/v1693922053/lPm4Lz6_aagizo.jpg"
+            },
+            {
+              "title": "\"The pattern was straightforward, and the end product is so cozy.\"",
+              "subtitle": "⭐⭐⭐⭐⭐",
+              "image_url": "https://res.cloudinary.com/diefzvdae/image/upload/v1693922030/original_beginner-s-knitting-workshop-with-artisan-tea-and-cakes_elamxt.jpg"
+            },
+            {
+              "title": "\"The instructions are well-written, and the shawl turned out beautifully.\"",
+              "subtitle": "⭐⭐⭐⭐⭐",
+              "image_url": "https://res.cloudinary.com/diefzvdae/image/upload/v1693922056/sewmakecreate-beginners-crochet-class-3_r7nwgv.jpg"
             }
-          ]
+          ],
+          "image_aspect_ratio": "horizontal"
         }
-      },
-      "quick_replies": [
-        {
-          "title": "That's cool!",
-          "set_attributes": {
-            "feedback": "Cool!"
-          }
+      }
+    }}, 
+
+    {
+        "message": {
+            "text": "👋Hello! I'm Lesly. For more than 30 years, I have taught workshops all over the world where I shared my knitting expertise and tips."
         }
-      ]
+    },
+    {
+        "message": {
+            "attachment": {
+                "type": "image",
+                "payload": {
+                    "url": "https://res.cloudinary.com/diefzvdae/image/upload/v1694087711/Untitled_design_20_1_pymser.png"
+                }
+            }
+        }
+    },
+    {
+        "message": {
+            "text": "Are you interested in my Universal Comfort Pullover Knitting Pattern?\n"
+        }
+    },
+    {
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "media",
+                    "elements": [
+                        {
+                            "media_type": "image",
+                            "attachment_id": "659912576105857",
+                            "buttons": [
+                                {
+                                    "type": "postback",
+                                    "payload": "1block",
+                                    "title": "👉 I'm Interested"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "👉 I'm Interested",
+                    "payload": "reply2"
+                }
+            ]
+        }
     }
-  ]
-}
+]
