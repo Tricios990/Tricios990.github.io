@@ -1,22 +1,30 @@
-
-
-    {
-        "message": {
-            "text": "👋Hello! I'm Lesly. For more than 30 years, I have taught workshops all over the world where I shared my knitting expertise and tips."
-        }
-    },
     {
         "message": {
             "attachment": {
-                "type": "image",
+                "type": "template",
                 "payload": {
-                    "url": "https://res.cloudinary.com/diefzvdae/image/upload/v1694087711/Untitled_design_20_1_pymser.png"
+                    "template_type": "media",
+                    "elements": [
+                        {
+                            "media_type": "image",
+                            "attachment_id": "659912576105857",
+                            "buttons": [
+                                {
+                                    "type": "postback",
+                                    "payload": "1block",
+                                    "title": "👉 I'm Interested"
+                                }
+                            ]
+                        }
+                    ]
                 }
-            }
-        }
-    },
-    {
-        "message": {
-            "text": "Are you interested in my Universal Comfort Pullover Knitting Pattern?\n"
+            },
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "👉 I'm Interested",
+                    "payload": "reply2"
+                }
+            ]
         }
     }
