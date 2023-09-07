@@ -5,14 +5,15 @@
         "type": "image",
         "payload": {
           "url": "https://assets.website-files.com/60afa6a88bd1bb7755dea817/60afa6a88bd1bb78e4deaa28_welcome-message-v8.png"
-        }, 
+        
         "buttons": [
           {
             "type": "web_url",
             "url": "https://my.manychat.com/r?act=9a427ef0dc8384cbdf004cc6670ee116&u=0&p=107885431075086&h=43147702dc",
-            "title": "xNew Button #1"
+            "title": "xxNew Button #1"
           }
         ]
+          }
       }
     }
   ]
