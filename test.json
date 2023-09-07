@@ -1,5 +1,5 @@
 {
-  "messages": [
+  "message": [
     {
       "attachment": {
         "type": "template",
@@ -8,20 +8,12 @@
           "elements": [
             {
               "media_type": "image",
-              "attachment_id": 1356200648663157
+              "attachment_id": "1356200648663157"
 
             }
           ]
         }
-      },
-      "quick_replies": [
-        {
-          "title": "That's cool!",
-          "set_attributes": {
-            "feedback": "Cool!"
-          }
-        }
-      ]
+      }
     }
   ]
 }
