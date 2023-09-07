@@ -2,32 +2,11 @@
   "messages": [
     {
       "attachment": {
-        "type": "template",
+        "type": "image",
         "payload": {
-          "template_type": "media",
-          "elements": [
-            {
-              "media_type": "image",
-              "attachment_id": "https://downloads.intercomcdn.com/i/o/109437161/361b67d1d034e180cab54334/total+users.png",
-              "buttons": [
-                {
-                  "title": "Go to Chatfuel!",
-                  "type": "web_url",
-                  "url": "https://chatfuel.com/"
-                }
-              ]
-            }
-          ]
+          "url": "https://assets.website-files.com/60afa6a88bd1bb7755dea817/60afa6a88bd1bb78e4deaa28_welcome-message-v8.png"
         }
-      },
-      "quick_replies": [
-        {
-          "title": "That's cool!",
-          "set_attributes": {
-            "feedback": "Cool!"
-          }
-        }
-      ]
+      }
     }
   ]
 }
