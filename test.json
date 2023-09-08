@@ -17,3 +17,15 @@
     }
   ]
 }
+{
+  "messages": [
+    {
+      "attachment": {
+        "type": "image",
+        "payload": {
+          "url": "https://res.cloudinary.com/diefzvdae/image/upload/v1693935988/iap_640x640.3668860563_lvyr9slq_wqqkcs.jpg"
+        }
+      }
+    }
+  ]
+}
