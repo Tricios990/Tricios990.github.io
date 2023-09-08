@@ -2,11 +2,32 @@
   "messages": [
     {
       "attachment": {
-        "type": "video",
+        "type": "template",
         "payload": {
-          "url": "https://res.cloudinary.com/diefzvdae/video/upload/v1688833053/Untitled_design_17_1_nkoeyg.mp4"
+          "template_type": "media",
+          "elements": [
+            {
+              "media_type": "video",
+              "url": "https://res.cloudinary.com/diefzvdae/video/upload/v1688833053/Untitled_design_17_1_nkoeyg.mp4",
+              "buttons": [
+                {
+                  "title": "Go to Chatfuel!",
+                  "type": "web_url",
+                  "url": "https://chatfuel.com/"
+                }
+              ]
+            }
+          ]
         }
-      }
+      },
+      "quick_replies": [
+        {
+          "title": "That's cool!",
+          "set_attributes": {
+            "feedback": "Cool!"
+          }
+        }
+      ]
     }
   ]
 }
