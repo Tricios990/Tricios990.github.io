@@ -20,14 +20,7 @@
           ]
         }
       },
-      "quick_replies": [
-        {
-          "title": "That's cool!",
-          "set_attributes": {
-            "feedback": "Cool!"
-          }
-        }
-      ]
+
     }
   ]
 }
